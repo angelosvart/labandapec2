@@ -1,0 +1,24 @@
+/*Header Content*/
+.headerContainer {
+  padding-top: 0.5rem;
+  border-bottom: 2px solid $color-primary;
+}
+
+.headerContainer__logo {
+  @include logo($color-dark);
+  font-size: 1.5rem;
+}
+
+/*Specific Header content for homepage*/
+.headerContainer--home {
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-bottom: 0;
+}
+
+.headerContainer__logo--light {
+  @include logo($color-light);
+}

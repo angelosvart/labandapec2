@@ -1,8 +1,16 @@
-@use "sass:color";
+/*Fonts*/
+$font-family-title: "Comfortaa", cursive;
 
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-$font-family-serif: "Georgia", "Times New Roman", serif;
+/*Colors*/
+$color-primary: #818487;
+$color-light: #f0eeef;
+$color-dark: #272c29;
+$color-highlight: #737079;
 
-$uoc-corporate: #000078;
-$uoc-masterbrand: #73edff;
-$uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
+/*Bootstrap modify colors*/
+$theme-colors: (
+  "primary": $color-primary,
+  "secondary": $color-highlight,
+  "light": $color-light,
+  "dark": $color-dark,
+);
